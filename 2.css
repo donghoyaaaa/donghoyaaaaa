@@ -8,7 +8,7 @@
     height:774.98px;
     padding: 0 20px;
     margin-top: 20px;
-    background-image: url(/넷플릭스클론코딩/background.jpg);
+    background-image: url(netflix_clone/background.jpg);
 }
 .hbar .header{
     height:200px;
@@ -78,13 +78,13 @@
     height:22px;
     
 }
-.ctQZg{
+.login{
     width:355px;
     height:22px;
     
 }
 
-._47KiJ{
+.tvenjoy{
  width:222px;
  height:22px;
  float:right;
@@ -92,13 +92,13 @@
 .hbar .navigate *{
     
 }
-.XrOey{
+.offline{
     padding-left: 22px;
 }
-.main{
+.devices{
     background-color:#FAFAFA;
     width:100%;
 }
-section{
+.kids{
  width:60%;
 }
