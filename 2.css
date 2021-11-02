@@ -10,6 +10,10 @@
     margin-top: 20px;
     background-image: url(/넷플릭스클론코딩/background.jpg);
 }
+.hbar .header{
+    height:200px;
+    width:100%;
+}
 .hbar .hspace{}
 .hbar *{
     float:left;
@@ -41,6 +45,10 @@
     border:1px solid white;
     background-color:none;
     
+}
+.bd{
+    width:567px;
+    height:564px;
 }
 .hbar .slogan{
     width:100%;
