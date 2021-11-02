@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hbar{
+    background-color: white;
+    width:100%;
+    height:774.98px;
+    padding: 0 20px;
+    margin-top: 20px;
+    background-image: url(/넷플릭스클론코딩/background.jpg);
+}
+.hbar .hspace{}
+.hbar *{
+    float:left;
+}
+.hbar .logo{
+    width:133.2px;
+    height:36px;
+    
+}
+.hbar .logo img{
+    width:133.2px;
+    height:36px;
+    padding:40px;
+    float:left;
+
+}
+.hbar .lang{
+    float:right;
+    width:100px;
+    height:36px;
+    border:1px solid white;
+    background-color:none;
+    
+}
+.hbar .select-lang{
+    padding:5px;
+    width:100px;
+    height:36px;
+    border:1px solid white;
+    background-color:none;
+    
+}
+.hbar .slogan{
+    width:100%;
+    height:534.98px;
+}
+.hbar .slogan *{
+    color:white;
+    margin:0 auto;
+}
+.hbar .search{
+    width:215px;
+    height:28px;
+    border:1px solid grey;
+}
+.hbar .input{
+    width:199px;
+    height:18px;
+    padding:5px 5px;
+    
+}
+.hbar input{
+    outline: none;
+    border:0px;
+}
+.hbar .navigate{
+    width:355px;
+    height:22px;
+    
+}
+.ctQZg{
+    width:355px;
+    height:22px;
+    
+}
+
+._47KiJ{
+ width:222px;
+ height:22px;
+ float:right;
+}
+.hbar .navigate *{
+    
+}
+.XrOey{
+    padding-left: 22px;
+}
+.main{
+    background-color:#FAFAFA;
+    width:100%;
+}
+section{
+ width:60%;
+}
