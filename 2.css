@@ -9,6 +9,8 @@
     padding: 0 20px;
     margin-top: 20px;
     background-image: url(netflix_clone/background.jpg);
+   
+    text-align: center;
 }
 .hbar .header{
     height:200px;
@@ -16,7 +18,7 @@
 }
 .hbar .hspace{}
 .hbar *{
-    float:left;
+    
 }
 .hbar .logo{
     width:133.2px;
@@ -27,7 +29,7 @@
     width:133.2px;
     height:36px;
     padding:40px;
-    float:left;
+    
 
 }
 .hbar .lang{
@@ -38,62 +40,107 @@
     background-color:none;
     
 }
-.hbar .select-lang{
+.hbar select{
     padding:5px;
     width:100px;
     height:36px;
     border:1px solid white;
-    background-color:none;
+    background-color:rgba( 255, 255, 255, 0.5 );
+    color:white;
     
 }
 .bd{
     width:567px;
     height:564px;
+    text-align: center;
+    
 }
 .hbar .slogan{
     width:100%;
-    height:534.98px;
+    height:270px;
+    text-align: center;
+    padding-left: 40%;
+
+    
+    
+    
 }
 .hbar .slogan *{
     color:white;
+    text-align: center;
     margin:0 auto;
+
+}
+.search{
+    width:900px;
+    height:70px;
+}
+.search input{
+    width:500px;
+    height:70px;
+    background-color: white;
+    border:1px solid black;
+    margin-left: 140px;
+   
+}
+.search .srbutton{
+    width:130px;
+    height:70px;
+    background-color: red;
+    color:white;
+    float:right;
+    
+}
+h1{
+    font-size: 40px;
+}
+h4{
+    font-size:20px;
 }
 .hbar .search{
     width:215px;
     height:28px;
-    border:1px solid grey;
+   
 }
-.hbar .input{
-    width:199px;
-    height:18px;
-    padding:5px 5px;
-    
-}
-.hbar input{
-    outline: none;
-    border:0px;
-}
-.hbar .navigate{
-    width:355px;
-    height:22px;
-    
-}
-.login{
-    width:355px;
-    height:22px;
-    
+.empty{
+    width:100%;
+    height: 100px;
+    background-color: black;
 }
 
-.tvenjoy{
- width:222px;
- height:22px;
- float:right;
+.tv{
+ padding-top: 100px;
+ padding:50px;
+ width:100%;
+ height:400px;
+ color:white;
+ background-color: black;
+ vertical-align: middle;
+
+}
+.tv .tvment{
+    float:left;
+    vertical-align: middle;
+    padding-top: 80px;
+}
+.tv image{
+    width:400px;
+    height:300px;
+    float:right;
 }
 .hbar .navigate *{
     
 }
 .offline{
-    padding-left: 22px;
+    width: 100%;
+    height:400px;
+    color:white;
+    background-color: black;
+    padding:50px;
+}
+.offline .offlineimg{
+    float:left;
+    margin-right: 100px;
 }
 .devices{
     background-color:#FAFAFA;
