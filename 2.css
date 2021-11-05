@@ -62,7 +62,7 @@ body{
     width:100px;
     height:36px;
     border:1px solid white;
-    background-color:rgba( 255, 255, 255, 0.5 );
+    background-color:rgba(0,0,0,.4);;
     color:white;
     
 }
@@ -233,9 +233,10 @@ hr{
  color:white;
  
  
- padding-top: 100px;
+ padding-top: 50px;
  margin: 0 auto;
  display: flex;
+ padding-bottom: 50px;
 }
 .kids .kidsment{
     width:450px;
@@ -287,7 +288,7 @@ hr{
     width:500px;
     height:70px;
     background-color: white;
-    border:1px solid black;
+    border:none;
     margin:0 auto;
     float: left;
     display: block;
@@ -298,11 +299,11 @@ hr{
 }
 .ready .startbutton{
     width:250px;
-    height:73px;
+    height:70px;
     background-color: red;
     color:white;
     float:right;
-   
+    border:none;
     font-size: 34px;
 }
 .info{
@@ -324,7 +325,41 @@ padding-top: 0;
   
     font-size: 1em;
     color: #757575;
-    padding: 0;
+    padding-bottom: 50px;
     margin: 0 0 30px;
 }
-
+.footerlink{
+    width:850px;
+    height:40px;
+    margin:0 auto;
+}
+.footerlinklist{
+    list-style: none;
+    float: left;
+    padding-left: 80px;
+    font-size: 12px;
+    
+    
+}
+.footerlinklist a{
+    color:grey;
+    text-decoration: none;
+    font;
+}
+.lastinf{
+    width:700px;
+    height:400px;
+    margin:0 auto;
+    padding-top: 40px;
+}
+.inf{
+    float:left;
+    padding-top:10px;
+}
+.inf a{
+    text-decoration: none;
+    color:grey
+}
+.footercountry{
+    padding-top: 70px;
+}
