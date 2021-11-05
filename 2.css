@@ -1,22 +1,35 @@
 *{
     margin:0;
     padding:0;
+    
 }
+.imagegrad{
+    width:100%;
+    height:774.98px;
+    position:absolute;
+   
+    margin:0;
+    padding:0;
+    
+}
+
 .hbar{
     background-color: white;
     width:100%;
     height:774.98px;
-    padding: 0 20px;
-    margin-top: 20px;
-    background-image: url(netflix_clone/background.jpg);
-   
+    
+    
+    background:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/b70b092f-1760-4498-b462-b4ef19907ec7/72fa8b1a-b8d1-4e08-92cc-53a418069108/KR-ko-20211101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    position: relative;
     text-align: center;
 }
+
 .hbar .header{
     height:200px;
     width:100%;
 }
-.hbar .hspace{}
+
 .hbar *{
     
 }
@@ -37,6 +50,7 @@
     width:100px;
     height:36px;
     border:1px solid white;
+    margin-right: 30px;
     background-color:none;
     
 }
@@ -49,17 +63,13 @@
     color:white;
     
 }
-.bd{
-    width:567px;
-    height:564px;
-    text-align: center;
-    
-}
-.hbar .slogan{
+
+.slogan{
     width:100%;
     height:270px;
     text-align: center;
-    padding-left: 40%;
+    padding-right: 20px;
+    
 
     
     
@@ -68,37 +78,49 @@
 .hbar .slogan *{
     color:white;
     text-align: center;
-    margin:0 auto;
+    
 
 }
 .search{
-    width:900px;
-    height:70px;
+    width:100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    margin:0 auto;
+    
 }
 .search input{
     width:500px;
     height:70px;
     background-color: white;
     border:1px solid black;
-    margin-left: 140px;
+    margin:0 auto;
+    float: left;
+    display: block;
+    font-size: large;
+    padding-left: 24px;
+    
    
 }
 .search .srbutton{
-    width:130px;
-    height:70px;
+    width:250px;
+    height:73px;
     background-color: red;
     color:white;
     float:right;
+    display: block;
+    font-size: 34px;
     
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
 }
 h4{
-    font-size:20px;
+    font-size:30px;
 }
 .hbar .search{
-    width:215px;
+    width:766px;
     height:28px;
    
 }
@@ -107,45 +129,177 @@ h4{
     height: 100px;
     background-color: black;
 }
-
+.enjoy1{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+    display: flex;
+}
 .tv{
  padding-top: 100px;
- padding:50px;
- width:100%;
+ width: 100%;
+ 
  height:400px;
  color:white;
  background-color: black;
  vertical-align: middle;
+ display: flex;
+ text-align: center;
+ margin:0 auto;
 
 }
 .tv .tvment{
-    float:left;
+    width:500px;
+    height:400px;
     vertical-align: middle;
     padding-top: 80px;
 }
 .tv image{
     width:400px;
     height:300px;
-    float:right;
-}
-.hbar .navigate *{
     
 }
+
 .offline{
     width: 100%;
     height:400px;
     color:white;
     background-color: black;
     padding:50px;
+    padding-top: 100px;
+    display: flex;
 }
 .offline .offlineimg{
     float:left;
     margin-right: 100px;
 }
-.devices{
-    background-color:#FAFAFA;
+.various{
+    height:400px;
     width:100%;
+    color:white;
+    background-color: black;
+    padding:50px;
+    padding-top: 100px;
+    display: flex;
+}
+.various .variousment{
+    float:left;
+
+}
+
+.variousimg{
+    position: relative;
+}
+
+.media{
+    width:392px;
+    height:218px;
+    position: absolute;
+    top:53px;
+    left:432px;
+    z-index: 1;
+    
+}
+
+.frame{
+    z-index: 10;
+    position: relative;
 }
 .kids{
- width:60%;
+ width:100%;
+ height:400px;
+ color:white;
+ background-color: black;
+ padding:50px;
+ padding-top: 100px;
+ margin: 0 auto;
+ display: bloack;
 }
+.kids .kidsment{
+    float:left;
+}
+.kidsimg img{
+    width:600px;
+    height:400px;
+    
+}
+
+.faq{
+    color:white;
+    background-color: black;
+    width:100%;
+    height: 682px;
+    text-align: center;
+    padding-top: 100px;
+    margin:0 auto;
+}
+.qbutton{
+    width: 668px;
+    height:85px;
+    font-size: 20px;
+    margin:5px;
+    color:white;
+    background-color: grey;
+    
+    
+}
+.ready{
+    width:100%;
+    height:300px;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+.ready .email{
+    width:766px;
+    height:28px;
+    display: flex;
+    padding-top: 30px;
+    margin:0 auto;
+   
+}
+.email input{
+    width:500px;
+    height:70px;
+    background-color: white;
+    border:1px solid black;
+    margin:0 auto;
+    float: left;
+    display: block;
+    font-size: large;
+    padding-left: 24px;
+    
+   
+}
+.ready .startbutton{
+    width:250px;
+    height:73px;
+    background-color: red;
+    color:white;
+    float:right;
+   
+    font-size: 34px;
+}
+.info{
+    width:100%;
+    height:600px;
+    background-color: black;
+    color:#757575;
+    padding-top: 200px;
+}
+.info .footer{
+
+font-size: 1em;
+color: #757575;
+margin: 0 auto;
+width: 90%;
+padding-top: 0;
+}
+.footerhd{
+  
+    font-size: 1em;
+    color: #757575;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
